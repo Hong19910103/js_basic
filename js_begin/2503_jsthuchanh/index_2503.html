@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>select a new car from the lits</p>
+
+<select id="myselect"  onchange="do_some_thing">
+    <option value="audi">Audi</option>
+    <option value="BMV">BMV</option>
+    <option value="Mecsedes">Mecsedes</option>
+    <option value="Volvo">Volvo</option>
+</select>
+<script>
+    // function do_some_thing(){
+    //     let selectedValue = document.getElementById('myselect').value;
+    //     alert(selectedValue)
+    // }
+    let selectedElement = document.getElementById('myselect');//lấy dữ liệu của id myselect
+    selectedElement.addEventListener("change", changefunction);//
+    function changefunction(){
+        let selectValue = document.getElementById('myselect').value;
+        alert(selectValue);
+    }
+    //thay doi noi dung cua html co san
+</script>
+</body>
+</html>
