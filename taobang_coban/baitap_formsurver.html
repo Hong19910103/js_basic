@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:border-spacing="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Tao form lay survey khach hang</title>
+
+</head>
+<body>
+<h2>Market Research Survey</h2>
+<p>Please take a few moments to complete this satisfaction surver.</p>
+<hr>
+<b> What is your age range?</b>
+<br>
+<label>
+    <select name="age">
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="21">21</option>
+        <option value="22">22</option>
+        <option value="23">23</option>
+        <option value="24">24</option>
+    </select>
+</label>
+<br>
+<b>What is your yearly income range?</b>
+<br>
+<label>
+    <select name="yearly">
+        <option value="1">$0-25000$</option>
+        <option value="2">$25001-50000$</option>
+        <option value="3">$50001-100000$</option>
+    </select>
+</label>
+<br>
+<b>Gender Identity</b>
+<br>
+<label>
+    <input name="gender" type="radio" value="male">
+</label>Male <br>
+<label>
+    <input type="radio" name="gender" value="female">
+</label>Female <br>
+<label>
+    <input name="gender" type="radio" value="Nonbinary">
+</label>Nonbinary <br>
+<label>
+    <input type="radio" name="gender" value="other">
+</label>other <br>
+<label for="other"></label>
+<textarea name="gender" id="other"></textarea> <br>
+<b>Which of the following product have your purchased in the last 2 mounths. Please check all that apply.</b>
+<br>
+<label>
+    <input type="checkbox" value="pr1">
+</label>Product 1 <br>
+<label>
+    <input type="checkbox" value="pr2">
+</label>Product 2 <br>
+<label>
+    <input type="checkbox" value="pr3">
+</label>Product 3 <br>
+<b>How often would you use our new product?</b> <br>
+<label>
+    <input type="radio" name="use" value="day">
+</label>Daily <br>
+<label>
+    <input type="radio" name="use" value="week">
+</label>Weekly <br>
+<label>
+    <input type="radio" name="use" value="Monthly">
+</label>Monthly<br>
+<b>What would you pay for the new product</b> <br>
+<table>
+    <tr>
+        <td><p>$</p></td>
+        <td><label>
+            <input type="text">
+        </label></td>
+        <td><p>.</p></td>
+        <td><label>
+            <input type="text">
+        </label></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><p>Dollars</p></td>
+        <td></td>
+        <td><p>Cents</p></td>
+    </tr>
+</table>
+<br>
+<b>What features would you like to see in the new product.</b>
+<br>
+<label for="following"></label><textarea name="following" id="following" cols="90" rows="10"></textarea>
+<br>
+<p>please rate your level of agreement with the following statement.</p>
+<br>
+<table cellspacing="0" border="1" >
+    <tr>
+        <td></td>
+        <td>Strongly Disagree</td>
+        <td>Disagree</td>
+        <td>Agree</td>
+        <td>Strongly agree</td>
+    </tr>
+    <tr>
+        <td><b>Our products are priced faily.</b></td>
+        <td><label>
+            <input type="radio" name="priced">
+        </label>1
+        </td>
+        <td><label>
+            <input type="radio" name="priced">
+        </label>2
+        </td>
+        <td><label>
+            <input type="radio" name="priced">
+        </label>3
+        </td>
+        <td><label>
+            <input type="radio" name="priced">
+        </label>4
+        </td>
+    </tr>
+    <tr>
+        <td><b>Our products are high quality.</b></td>
+        <td><label>
+            <input type="radio" name="high">
+        </label>1
+        </td>
+        <td><label>
+            <input type="radio" name="high">
+        </label>2
+        </td>
+        <td><label>
+            <input type="radio" name="high">
+        </label>3
+        </td>
+        <td><label>
+            <input type="radio" name="high">
+        </label>4
+        </td>
+    </tr>
+    <tr>
+        <td><b>You would recomend our product to friend or coworker.</b></td>
+        <td><label>
+            <input type="radio" name="friend">
+        </label>1
+        </td>
+        <td><label>
+            <input type="radio" name="friend">
+        </label>2
+        </td>
+        <td><label>
+            <input type="radio" name="friend">
+        </label>3
+        </td>
+        <td><label>
+            <input type="radio" name="friend">
+        </label>4
+        </td>
+    </tr>
+</table>
+<br>
+<input type="submit" name="Submit">
+
+</body>
+</html>
