@@ -1,0 +1,25 @@
+*{margin: 0;padding: 0}
+body {
+    background-color: wheat;
+    text-align: center;
+}
+#dt {
+    text-align: left;
+    width:300px;
+    color:red;
+    margin:10px auto;
+    border:1px solid brown;
+    background-color: beige;
+}
+#dt h3 {
+    font-size:15px;
+    text-align: center;
+    background: #dddddd;
+    margin:3px 2px;
+    padding:2px 3px;
+}
+
+
+
+
+
