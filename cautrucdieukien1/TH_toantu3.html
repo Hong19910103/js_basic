@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuc hanh toan tu 3 ngoi</title>
+</head>
+<body>
+<script>
+    // let a = parseInt(prompt('Nhap gia tri a'));
+    // let b = parseInt(prompt('Nhap gia tri b'));
+    // result = (a+b)<4?'Below':'Over';
+    // Bai 1
+    // let login = prompt('input message');
+    // let message;
+    // if (login === "Employee") {
+    //     document.write('hello');
+    // } else if (login ==='Director') {
+    //     document.write('Greeting');
+    // } else if ( login === ' ') {
+    //     document.write('No login');
+    // } else {
+    //     document.write(" ");
+    // }
+    let login = prompt('nhap vao day');
+    let message = (login === 'Employee')?
+        'hello':
+        (login === 'Director')?
+            'greetings':
+            (login === ' ')?
+                'no login':
+                " ";
+    alert(message);
+</script>
+
+</body>
+</html>

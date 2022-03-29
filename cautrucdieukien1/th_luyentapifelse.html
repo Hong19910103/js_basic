@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuc hanh luyen tap if-else</title>
+</head>
+<body>
+<script>
+    let userName = prompt("Who is  there?",'');
+    if (userName == "Admin") {
+        let pass = prompt('Password?');
+        if (pass == "TheMaster") {
+            alert('Welcome');
+        } else if (pass == " ") {
+            alert("Canceled");
+        } else {
+            alert('Wrong password');
+        }
+    } else if (userName ==" ") {
+        alert("Canceled");
+    } else{
+        alert("I do not know");
+    }
+</script>
+</body>
+</html>
